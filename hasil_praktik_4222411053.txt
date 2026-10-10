@@ -1,0 +1,17 @@
+==============================================================================
+  PRAKTIK TERPADU MINGGU 4-7 - RET503
+==============================================================================
+  NIM / Nama    : 4222411053 / Sara Devina Pardede
+  Waktu         : 10-10-2026 15:01:32
+  Komputer/user : f6582f4b86a6 / root
+  Dataset       : dataset_v1  (sidik jari label: 35D76BF59253)
+  Pengaturan    : model yolo26n, epochs 30, imgsz 416, batch 16
+==============================================================================
+  Eksperimen     Perubahan        mAP50  mAP50-95      P      R     ms   menit
+  E1_pretrained  -                0.431     0.302  0.514  0.445    4.8     5.7
+  E2_scratch     -                0.113     0.052  0.186  0.224    3.6     5.5
+  E3_tuning      imgsz=640        0.485     0.359  0.508  0.549    5.0     7.5
+==============================================================================
+  Model terpilih (mAP50-95 val tertinggi): E3_tuning
+  Hasil di data TEST (sekali saja)       : mAP50 0.496 | mAP50-95 0.380
+==============================================================================
